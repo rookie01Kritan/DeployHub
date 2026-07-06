@@ -5,6 +5,7 @@
 
 require("dotenv").config();
 const express = require("express");
+const cors = require("cors");
 const authRoutes = require("./routes/authRoutes");
 const errorHandler = require("./middlewares/errorHandler");
 const authMiddleware = require("./middlewares/authMiddleware");
@@ -17,6 +18,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // ── Global Middleware ─────────────────────────────────────────
+app.use(cors());
 app.use(express.json()); // parses incoming JSON request bodies
 
 // ── Routes ───────────────────────────────────────────────────
