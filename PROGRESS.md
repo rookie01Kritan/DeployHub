@@ -306,13 +306,12 @@ await repo.shiftLessonsDown(moduleId, deletedIndex); // UPDATE SET order_index -
 - [x]Phase 18: Frontend — Auth + Dashboard
 - [x]Phase 19: Kanban Board UI (tasks, columns, status updates)
 - [x]Phase 20: Frontend — Learning Modules + Quizzes
+- [x]Phase 21: Docker
+- [x]Phase 22: CI/CD (GitHub Actions)
 ## Current Phase
-**Phase 21: Docker** (not started)
+**Phase 23: Cloud Deployment** (not started)
 
 ## Remaining Phases
-
-- [ ] Phase 21: Docker
-- [ ] Phase 22: CI/CD (GitHub Actions)
 - [ ] Phase 23: Cloud Deployment
 - [ ] Phase 24: Monitoring + Logging
 - [ ] Phase 25: Testing (Unit + Integration)
